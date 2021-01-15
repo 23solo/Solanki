@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Solanki</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Knowledge</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Heyy I'm,<br> <span>Abhishek Solanki</span></h2>
+            <h3>I'm a Full Stack Web Developer <br>
+                & Machine Learning Engineer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/Sol.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Abhishek</b>, a Computer Engineering student currently in my Final Year</h2>
+                <p>I’m highly motivated and extremely passionate about developing. I am known for completing projects ahead of deadlines, and I feel this is especially important when things are constantly evolving and changing. I take initiative and am always coming up with various ways to solve a problem without needing to wait for direction. I also am always up-to-date with the newest trends and am willing to try the latest thing.</p><br>
+                <p>Talking about the programming language, I can code in C, C++, Java & Python. I'm more confident in Python as I have done a lot of projects related to Deep Learning and also because it has a lot of excellent libraries. The support libraries greatly reduce time spent on coding, and I find it helps me be creative yet efficient</p>
+                <div class="heading bottom">
+                    <a href="images/Resume.pdf" class="btn round" target="_blank">Download CV</a>
+                    <div class="bt">
+                        <b>Name :</b> Abhishek Solanki<br>
+                        <b>Age :</b> 22
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> soloabhish@gmail.com<br>
+                        <b>Location:</b> Mumbai
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Domain Knowledge</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-code fa-4x" aria-hidden="true" ></i>
+                <h3>Angular </h3> 
+                <p>In depth Knowledge About Angular Application</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cogs fa-4x" aria-hidden="true"></i>
+                <h3>Deep Learning</h3>
+                <p>In depth Knowledge About Deep Learning.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cart-arrow-down fa-4x"></i>
+                <h3>Machine Learning</h3>
+                <p>In depth Knowledge about Machine Learning</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cloud-download fa-4x" aria-hidden="true"></i>
+                <h3>MongoDb</h3>
+                <p>In depth Knowledge about MongoDb</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-bold fa-4x" aria-hidden="true"></i>
+                <h3>BootStrap</h3>
+                <p>In depth Knowledge about BootStrap</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-joomla fa-4x"></i>
+                <h3>React</h3>
+                <p>In depth Knowledge about React Lib/FW</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://oshop-e8d88.web.app/" target="_blank">
+                    <img src="images/oshop.jpg" alt="" width="700" height="300">
+                    <p>Angular Website with Firebase for Backend</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://abhishekwebsite.github.io/sol/" target="_blank">
+                    <img src="images/bootstrap.jpg" alt="" width="700" height="300">
+                    <p>Responsive Food Store using BOOTSTRAP</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://todoss-f95c9.web.app/" target="_blank">
+                    <img src="images/todo.jpg" alt="" width="700" height="300">
+                    <p>To-Do List Javascript with Firebase </p>
+                </a>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Palace,<br>Sector 21 Road 9<br>Mumbai, Mumbai <br>India 400005</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>8779699031</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>soloabhish@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020, abhishekwebsite.com, All rights reserved</p>
+    </footer>
+</body>
+</html>
