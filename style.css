@@ -46,6 +46,20 @@ header ul li a{
     text-decoration: none;
 }
 /* Creating Stiky Header Menu Nav Bar */
+.navbar :hover{
+    box-shadow:0 0 20px 10px rgb(121, 107, 107);
+    transform:scale(1.008);
+    -webkit-transform:scale(1.008);
+    -moz-transform:scale(1.008);
+    -ms-transform:scale(1.008);
+    -o-transform:scale(1.008);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+
+}
 header.sticky{
     background:#fff;
     padding:20px 100px;
@@ -195,15 +209,42 @@ img{
 }
 
 /* Creating Work Layout in CSS */
+.work .link{
+    border-radius: 10px;
+}
 .work .content{
+    border-radius: 20px;
     display:flex;
     justify-content: center;
     flex-wrap:wrap;
     flex-direction:row;
+    box-shadow: 1px 5px 10px 5px #333232;
 }
 .work .content .workBx{
-    width:500px;
-    padding:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+}
+.work .content .workBx p{
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(152, 123, 219), rgb(26, 192, 54));
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left: 22px;
+    
+}
+.work .content .workBx p:hover{
+    box-shadow:0 0 20px 10px rgb(27, 26, 26);
+    transform:scale(1.008);
+    -webkit-transform:scale(1.008);
+    -moz-transform:scale(1.008);
+    -ms-transform:scale(1.008);
+    -o-transform:scale(1.008);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
 }
 .work .content .workBx img{
     max-width:100%;
@@ -211,7 +252,7 @@ img{
     cursor:pointer;
 }
 .work .content .workBx img:hover{
-    box-shadow:0 0 20px 5px #ccc;
+    box-shadow:0 0 20px 10px rgb(131, 23, 23);
     transform:scale(1.008);
     -webkit-transform:scale(1.008);
     -moz-transform:scale(1.008);
