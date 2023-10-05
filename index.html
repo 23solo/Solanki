@@ -1,266 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solo</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="ext.js" language="javascript"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="ext.js" language="javascript"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
+
 <body>
-    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
-    <header>
-        <a href="#" class="logo">Solanki</a>
-        <div class="toggle" onclick="toggleMenu();"></div>
-        <ul class="menu">
-            <li class="navbar"><a href="#home" onclick="toggleMenu();">Home</a></li>
-            <li class="navbar"><a href="#about" onclick="toggleMenu();">About</a></li>
-            <li class="navbar"><a href="#work" onclick="toggleMenu();">Work</a></li>
-            <li class="navbar"><a href="#knowledge" onclick="toggleMenu();">Knowledge</a></li>
-            <li class="navbar"><a href="#certificates" onclick="toggleMenu();">Certificates</a></li>
-            <li class="navbar"><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-        </ul>
-    </header>
+  <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+  <header>
+    <a href="#" class="logo">Solanki</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li class="navbar"><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li class="navbar"><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li class="navbar"><a href="#work" onclick="toggleMenu();">Work</a></li>
+      <li class="navbar"><a href="#knowledge" onclick="toggleMenu();">Knowledge</a></li>
+      <li class="navbar"><a href="#certificates" onclick="toggleMenu();">Certificates</a></li>
+      <li class="navbar"><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
 
-    <!-- Creating Banner Layout in HTML -->
-    <section class="banner" id="home">
-        <div class="textBx">
-            <h2>Heyy I'm,<br> <span>Abhishek Solanki</span></h2>
-            <h3>I'm a Full Stack Web Developer <br></h3>
-            <a href="#about" class="btn">About Me</a>
-        </div>
-    </section>
+  <!-- Creating Banner Layout in HTML -->
+  <section class="banner" id="home">
+    <div class="textBx">
+      <h2>Heyy I'm,<br> <span>Abhishek Solanki</span></h2>
+      <h3>I'm a Full Stack Web Developer <br></h3>
+      <a href="#about" class="btn">About Me</a>
+    </div>
+  </section>
 
-    <!-- Creating About Me Layout in HTML -->
-    <section class="about" id="about">
-        <div class="heading">
-            <p>Get to Know me</p>
-            <h2>About Me</h2>
+  <!-- Creating About Me Layout in HTML -->
+  <section class="about" id="about">
+    <div class="heading">
+      <p>Get to Know me</p>
+      <h2>About Me</h2>
+    </div>
+    <div class="content">
+      <div class="w50">
+        <img src="images/Sol.jpeg" alt="" class="proPic">
+      </div>
+      <div class="contentBx w50">
+        <h3>Who am i?</h3>
+        <h2>I'm <b>Abhishek</b>, a Software Engineer</h2>
+        <p> I have worked remotely for over 2 Years. I was a part of Percy Platform team, Percy is acquired by
+          Browserstack, it is a visual testing platform which helps developer find visual bugs before the changes are
+          ship to production.<br>
+          I’ve worked on the backend part, which is the rendering infrastructure for Percy, Percy’s main tech stack
+          revolves heavily around Ruby, NodeJS, JS & SQL where everything was containerised using Docker. I’ve helped in
+          adding many features, fixing Bugs, making deployment stable (using Ansible) and maintaining the product using
+          system logging tools.</p><br><br>
+        <div class="heading bottom">
+          <a href="images/Resume.pdf" class="btn round" target="_blank">Download CV</a>
+          <div class="bt">
+            <b>Name :</b> Abhishek Solanki<br>
+            <b>Age :</b> 24
+          </div>
+          <div class="bt">
+            <b>Email:</b> soloabhish@gmail.com<br>
+            <b>Location:</b> Mumbai
+          </div>
         </div>
-        <div class="content">
-            <div class="w50">
-                <img src="images/Sol.jpeg" alt="" class="proPic">
-            </div>
-            <div class="contentBx w50">
-                <h3>Who am i?</h3>
-                <h2>I'm <b>Abhishek</b>, a Software Engineer</h2>
-                <p> I have worked remotely for over 2 Years. I was a part of Percy Platform team, Percy is acquired by Browserstack, it is a visual testing platform which helps developer find visual bugs before the changes are ship to production.<br>
-                    I’ve worked on the backend part, which is the rendering infrastructure for Percy, Percy’s main tech stack revolves heavily around Ruby, NodeJS, JS & SQL where everything was containerised using Docker. I’ve helped in adding many features, fixing Bugs, making deployment stable (using Ansible) and maintaining the product using system logging tools.</p><br><br>
-                <div class="heading bottom">
-                    <a href="images/Resume.pdf" class="btn round" target="_blank">Download CV</a>
-                    <div class="bt">
-                        <b>Name :</b> Abhishek Solanki<br>
-                        <b>Age :</b> 24
-                    </div>
-                    <div class="bt">
-                        <b>Email:</b> soloabhish@gmail.com<br>
-                        <b>Location:</b> Mumbai
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Creating Work Layout in HTML -->
+  <!-- Creating Work Layout in HTML -->
 
-    <section class="work" id="work">
-        <div class="heading">
-            <h2>My Latest Project Link</h2>
-            
-        </div>
-        <div class="content">
-            <div class="workBx">
-                <a  href="https://angular-21e54.web.app/" target="_blank">
-                    <img class="link" src="images/angular.jpeg" alt="" width="420" height="205   ">
-                    <p><i> <strong> Restaurant With Angular(Animations)</strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://algo-visualiser.onrender.com/" target="_blank">
-                    <img class="link" src="images/visualizer.jpeg" alt="" width="420" height="220   ">
-                    <p><i> <strong> Algorithm visualizer (Flask/ React) (WIP)</strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://oshop-e8d88.web.app/" target="_blank">
-                    <img class="link" src="images/oshop.jpg" alt="" width="420" height="205  ">
-                    <p><i> <strong> Angular & Firebase with <b style = "color: rgb(255, 255, 255); font-family: monospace; font-size: x-large;">GOOGLE</b> Authentication</strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://hackerearth-838b1.web.app/" target="_blank">
-                    <img class="link" src="images/hackerearth.JPG" alt="Book Store" width="420" height="205    ">
-                    <p><i> <strong> HackerEarth Challenge Angular </strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://confident-roentgen-4746f9.netlify.app/" target="_blank">
-                    <img class="link" src="images/ufaber.JPG" alt="Book Store" width="420" height="205    ">
-                    <p><i> <strong> uFaber Frontend Assignment </strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://abhishekwebsite.github.io/sol/" target="_blank">
-                    <img class="link" src="images/bootstrap.jpg" alt="" width="420" height="205  ">
-                    <p><i> <strong> Responsive Food Store using BOOTSTRAP</strong></i></p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a  href="https://todoss-f95c9.web.app/" target="_blank">
-                    <img class="link" src="images/todo.jpg" alt="" width="420" height="205   ">
-                    <p><i> <strong> To-Do List: Javascript & Firebase </strong></i></p>
-                </a>
-            </div>
-            
-        </div>
-    </section>
+  <section class="work" id="work">
+    <div class="heading">
+      <h2>My Latest Project Link</h2>
 
-    <!-- Creating Services Layout in HTML -->
-    <section class="services" id="knowledge">
-        <div class="heading white">
-            <h2>Domain Knowledge</h2>
-        </div>
-        <div class="content">
-            <div class="servicesBx">
-                <i class="fa fa-code fa-4x" aria-hidden="true" ></i>
-                <h3>Angular </h3> 
-                
-            </div>
-            <div class="servicesBx">
-                <i class="fa fa-cogs fa-4x" aria-hidden="true"></i>
-                <h3>Deep Learning</h3>
-                
-            </div>
-            <div class="servicesBx">
-                <i class="fa fa-cart-arrow-down fa-4x"></i>
-                <h3>Machine Learning</h3>
-            </div>
-            <div class="servicesBx">
-                <i class="fa fa-cloud-download fa-4x" aria-hidden="true"></i>
-                <h3>MongoDb</h3>
-                
-            </div>
-            <div class="servicesBx">
-                <i class="fa fa-bold fa-4x" aria-hidden="true"></i>
-                <h3>BootStrap</h3>
-                
-            </div>
-            <div class="servicesBx">
-                <i class="fa fa-joomla fa-4x"></i>
-                <h3>NodeJS</h3>
-                
-            </div>
-            
-        </div>
-    </section>
+    </div>
+    <div class="content">
+      <div class="workBx">
+        <a href="https://www.soulchess.in/" target="_blank">
+          <img class="link" src="images/ChessGame.png" alt="" width="420" height="220   ">
+          <p><i> <strong> RealTime Chess Application</strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://angular-21e54.web.app/" target="_blank">
+          <img class="link" src="images/angular.jpeg" alt="" width="420" height="205   ">
+          <p><i> <strong> Restaurant With Angular(Animations)</strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://algo-visualiser.onrender.com/" target="_blank">
+          <img class="link" src="images/visualizer.jpeg" alt="" width="420" height="220   ">
+          <p><i> <strong> Algorithm visualizer (Flask/ React) (WIP)</strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://oshop-e8d88.web.app/" target="_blank">
+          <img class="link" src="images/oshop.jpg" alt="" width="420" height="205  ">
+          <p><i> <strong> Angular & Firebase with <b
+                  style="color: rgb(255, 255, 255); font-family: monospace; font-size: x-large;">GOOGLE</b>
+                Authentication</strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://hackerearth-838b1.web.app/" target="_blank">
+          <img class="link" src="images/hackerearth.JPG" alt="Book Store" width="420" height="205    ">
+          <p><i> <strong> HackerEarth Challenge Angular </strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://confident-roentgen-4746f9.netlify.app/" target="_blank">
+          <img class="link" src="images/ufaber.JPG" alt="Book Store" width="420" height="205    ">
+          <p><i> <strong> uFaber Frontend Assignment </strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://abhishekwebsite.github.io/sol/" target="_blank">
+          <img class="link" src="images/bootstrap.jpg" alt="" width="420" height="205  ">
+          <p><i> <strong> Responsive Food Store using BOOTSTRAP</strong></i></p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://todoss-f95c9.web.app/" target="_blank">
+          <img class="link" src="images/todo.jpg" alt="" width="420" height="205   ">
+          <p><i> <strong> To-Do List: Javascript & Firebase </strong></i></p>
+        </a>
+      </div>
 
-    <!-- Creating Work Layout in HTML -->
+    </div>
+  </section>
 
-    <section class="work" id="certificates">
-        <div class="heading">
-            <h2>Certificates</h2>
-            
-        </div>
-        <div class="content">
-            <div class="workBx">
-                <a href="https://github.com/23solo/Certificates " target="_blank">
-                    <img src="images/Coding Competition.png" alt="" width="400" height="200">
-                    <p>1st Rank in Codentine Competitive Programming</p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a href="https://github.com/23solo/Certificates " target="_blank">
-                    <img src="images/achievement.JPG" alt="" width="400" height="200">
-                    <p>Achievement for Solving all Problems</p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a href="https://github.com/23solo/Certificates " target="_blank">
-                    <img src="images/python.JPG" alt="" width="400" height="200">
-                    <p>Python Data Structures</p>
-                </a>
-            </div>
-            <div class="workBx">
-                <a href="https://github.com/23solo/Certificates " target="_blank">
-                    <img src="images/more.jpg" alt="" width="400" height="200">
-                    <p>More Courses / Certificates</p>
-                </a>
-            </div>
-            
-            
-        </div>
-    </section>
+  <!-- Creating Services Layout in HTML -->
+  <section class="services" id="knowledge">
+    <div class="heading white">
+      <h2>Domain Knowledge</h2>
+    </div>
+    <div class="content">
+      <div class="servicesBx">
+        <i class="fa fa-code fa-4x" aria-hidden="true"></i>
+        <h3>Angular </h3>
 
-    <!-- Creating Contact Layout in HTML -->
-    <section class="contact" id="contact">
-        <div class="heading white">
-            <p>Feel free to contact me anytime</p>
-            <h2>Get in Touch</h2>
-        </div>
-        <div class="content">
-            <div class="contactInfo">
-                <h3>Contact Info</h3>
-                <p>Always available for work if the right project<br> comes along, Feel free to contact me!</p>
-                <div class="contactInfoBx">
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Address</h3>
-                            <p>Palace,<br>Sector 21 Road 9<br>Mumbai, Mumbai <br>India 400005</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Phone no :</h3>
-                            <p>8779699031</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-envelope-o"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Email Address</h3>
-                            <p>soloabhish@gmail.com</p>
-                        </div>
-                    </div>
-                    <br>
-                    <h3>Social Connect</h3>
-                    <div class="boxSocial">
-                        
-                        <div class="icon">
-                            <a href="https://www.linkedin.com/in/abhishek-solanki-02b62a201/" target="_blank">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="formBx">
-                <form>
-                    <h3>Message Me</h3>
-                    <input type="text" placeholder="Full Name" name="">
-                    <input type="email" placeholder="Email" name="">
-                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send Message" name="">
-                </form>
-            </div>
-        </div>
-    </section>
+      </div>
+      <div class="servicesBx">
+        <i class="fa fa-cogs fa-4x" aria-hidden="true"></i>
+        <h3>Deep Learning</h3>
 
-    <!-- Creating Footer Layout in HTML -->
-    <footer class="copyright">
-        <p>&copy; 2020, abhishekwebsite.com, All rights reserved</p>
-    </footer>
-    <script>
-        console.log("solo")
-    </script>
+      </div>
+      <div class="servicesBx">
+        <i class="fa fa-cart-arrow-down fa-4x"></i>
+        <h3>Machine Learning</h3>
+      </div>
+      <div class="servicesBx">
+        <i class="fa fa-cloud-download fa-4x" aria-hidden="true"></i>
+        <h3>MongoDb</h3>
+
+      </div>
+      <div class="servicesBx">
+        <i class="fa fa-bold fa-4x" aria-hidden="true"></i>
+        <h3>BootStrap</h3>
+
+      </div>
+      <div class="servicesBx">
+        <i class="fa fa-joomla fa-4x"></i>
+        <h3>NodeJS</h3>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Creating Work Layout in HTML -->
+
+  <section class="work" id="certificates">
+    <div class="heading">
+      <h2>Certificates</h2>
+
+    </div>
+    <div class="content">
+      <div class="workBx">
+        <a href="https://github.com/23solo/Certificates " target="_blank">
+          <img src="images/Coding Competition.png" alt="" width="400" height="200">
+          <p>1st Rank in Codentine Competitive Programming</p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://github.com/23solo/Certificates " target="_blank">
+          <img src="images/achievement.JPG" alt="" width="400" height="200">
+          <p>Achievement for Solving all Problems</p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://github.com/23solo/Certificates " target="_blank">
+          <img src="images/python.JPG" alt="" width="400" height="200">
+          <p>Python Data Structures</p>
+        </a>
+      </div>
+      <div class="workBx">
+        <a href="https://github.com/23solo/Certificates " target="_blank">
+          <img src="images/more.jpg" alt="" width="400" height="200">
+          <p>More Courses / Certificates</p>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Creating Contact Layout in HTML -->
+  <section class="contact" id="contact">
+    <div class="heading white">
+      <p>Feel free to contact me anytime</p>
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="content">
+      <div class="contactInfo">
+        <h3>Contact Info</h3>
+        <p>Always available for work if the right project<br> comes along, Feel free to contact me!</p>
+        <div class="contactInfoBx">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Palace,<br>Sector 21 Road 9<br>Mumbai, Mumbai <br>India 400005</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone no :</h3>
+              <p>8779699031</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </div>
+            <div class="text">
+              <h3>Email Address</h3>
+              <p>soloabhish@gmail.com</p>
+            </div>
+          </div>
+          <br>
+          <h3>Social Connect</h3>
+          <div class="boxSocial">
+
+            <div class="icon">
+              <a href="https://www.linkedin.com/in/abhishek-solanki-02b62a201/" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="formBx">
+        <form>
+          <h3>Message Me</h3>
+          <input type="text" placeholder="Full Name" name="">
+          <input type="email" placeholder="Email" name="">
+          <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" name="">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Creating Footer Layout in HTML -->
+  <footer class="copyright">
+    <p>&copy; 2020, abhishekwebsite.com, All rights reserved</p>
+  </footer>
+  <script>
+    console.log("solo")
+  </script>
 </body>
+
 </html>
